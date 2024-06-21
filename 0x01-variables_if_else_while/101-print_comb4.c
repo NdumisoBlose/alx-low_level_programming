@@ -13,7 +13,7 @@ int main(void)
 	int doubles;
 	int triples;
 
-	for (number = 0; number < 1000; number++)
+	for (number = 0; number <= 999; number++)
 	{
 		singles = number % 10;
 		doubles = (number / 10) % 10;

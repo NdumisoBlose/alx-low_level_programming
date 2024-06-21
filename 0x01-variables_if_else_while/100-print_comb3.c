@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int number = 0;
+	int number;
 	int singles;
 	int doubles;
-
-	while (number <= 99)
+	
+	for (number = 0; number <= 99; number++)
 	{
 		singles = number / 10;
 		doubles = number % 10;
@@ -27,7 +27,6 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		number++;
 	}
 	putchar('\n');
 
