@@ -11,7 +11,7 @@ int main(void)
 	int number;
 	int singles;
 	int doubles;
-	
+
 	for (number = 0; number <= 99; number++)
 	{
 		singles = number / 10;
