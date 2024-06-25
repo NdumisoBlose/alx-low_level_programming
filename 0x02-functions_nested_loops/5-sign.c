@@ -4,7 +4,7 @@
  * print_sign - prints the sign of the number
  * @n: chacter chosen to be checked
  *
- * Return: 1 prints + if n is greater than 0, 0 prints 0 if is 0, -1 prints - if <0
+ * Return: 1 prints + if n > 0, 0 prints 0 if is 0, -1 prints - if < 0
  */
 int print_sign(int n)
 {
