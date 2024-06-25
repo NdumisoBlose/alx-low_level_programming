@@ -15,15 +15,15 @@ void times_table(void)
 		{
 			c = a * b;
 
-			if (c < 9)
+			if (c > 9)
 			{
 				v = c % 10;
 				z = (c - v) / 10;
 
 				_putchar(44);
 				_putchar(32);
-				_putchar(z + '0');
-				_putchar(v + '0');
+				_putchar(z);
+				_putchar(v);
 			}
 			else
 			{
@@ -33,7 +33,7 @@ void times_table(void)
 					_putchar(32);
 					_putchar(32);
 				}
-				_putchar(c + '0');
+				_putchar(c);
 			}
 		}
 		_putchar('\n');
