@@ -3,13 +3,13 @@
 /**
  * print_numbers - prints numbers from 0 - 9
  *
- * Return: void
+ * Return: 0
  */
 void print_numbers(void)
 {
-	chat c = '0';
+	char c = "0";
 
-	while (c <= '9')
+	while (c <= "9")
 	{
 		_putchar(c);
 		c++;
