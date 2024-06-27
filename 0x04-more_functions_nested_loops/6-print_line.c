@@ -3,7 +3,6 @@
 /**
  * print_line - draws a straight in terminal
  * @n: value for the length of the line
- *
  * Return: 0
  */
 void print_line(int n)
