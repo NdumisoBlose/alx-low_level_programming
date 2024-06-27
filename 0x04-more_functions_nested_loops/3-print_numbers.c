@@ -7,11 +7,12 @@
  */
 void print_numbers(void)
 {
-	int i;
+	chat c = '0';
 
-	for (i = 0; i <= 9; i++)
+	while (c <= 9)
 	{
-		_putchar(i);
+		_putchar(c);
+		c++
 	}
 	_putchar("\n");
 }
