@@ -23,7 +23,7 @@ int checking(int i, int j)
  * @n: input integer
  * Return: natural square root of a number
  */
-int _sqrt_recrsion(int n)
+int _sqrt_recursion(int n)
 {
 	return (checking(1, n));
 }
