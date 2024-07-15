@@ -4,8 +4,8 @@
  * str_concat - function that concatenates two strings
  * @s1: first string input
  * @s2: second string input
- * Return: a returned pointer  should point to a 
- * newly allocated space in memory which contains 
+ * Return: a returned pointer  should point to a
+ * newly allocated space in memory which contains
  * the contents of s1, followed by the contents of s2, and null terminated
  * if NULL is passed, treat it as an empty string
  * The function should return NULL on failure
